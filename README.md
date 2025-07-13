@@ -1,21 +1,21 @@
 # MISSION
 
 
-Introduction
-This repository provides source code of MISSION.
+Introduction  
+This repository provides source code of MISSION.  
 
 MISSION is a data augmentation approach that aims at handling the between-class problem rooted in the natural of the program test suite. Specifically, MISSION
- generates synthesized failing test cases from reduced feature sapce.
+ generates synthesized failing test cases from reduced feature sapce.  
 
-Environment
-OS: Linux
-Python package:
-pandas==0.25.1
-chardet==3.0.4
-numpy==1.16.5
-torch==1.9.0
-Structure
-The structure of the repository is as follows:
+Environment  
+OS: Linux  
+Python package:  
+pandas==0.25.1  
+chardet==3.0.4  
+numpy==1.16.5  
+torch==1.9.0  
+Structure  
+The structure of the repository is as follows:  
 
 calculate_suspiciousness
 |____CalculateSuspiciousness.py	:calculate suspiciousness of each statement and give the MFR rank or MAR rank according to the real fault line.
