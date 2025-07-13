@@ -24,40 +24,41 @@ data
 |____manybugs :MangBugs dataset	  
 |____sir :SIR dataset		  
 |____motivation :artificial dataset	  
-data_process
-|____data_systhesis :data synthesis approaches
-|    |____resampling.py
-|    |____borderline_smote.py
-|____data_undersampling :undersampling approaches
-|	 |____undersampling.py
-|____dimensional_reduction :feature selection
-|	 |____Slice.py		
-metrics : SFL and DLFL metrics
-|____calc_corr.py
-|____dl_metrics.py
-|____metrics.py
-pipeline
-|____Pipeline.py : load different type of data, process data and calculate suspiciousness task
-read_data : load data according to args
-|____DataLoader.py
-|____Defects4JDataLoader.py
-|____ManyBugsDataLoader.py
-|____SIRDataLoader.py
-results : store the results in txt format
-utils : some utils during pipeline
-|____args_util.py
-|____file_util.py
-|____read_util.py
-|____write_util.py
-run.py : program entry
+data_process  
+|____data_systhesis :data synthesis approaches  
+|    |____resampling.py  
+|    |____borderline_smote.py  
+|____data_undersampling :undersampling approaches  
+|	 |____undersampling.py  
+|____dimensional_reduction :feature selection   
+|	 |____Slice.py		  
+metrics : SFL and DLFL metrics  
+|____calc_corr.py  
+|____dl_metrics.py  
+|____metrics.py  
+pipeline  
+|____Pipeline.py : load different type of data, process data and calculate suspiciousness task  
+read_data : load data according to args  
+|____DataLoader.py  
+|____Defects4JDataLoader.py  
+
+|____ManyBugsDataLoader.py  
+|____SIRDataLoader.py  
+results : store the results in txt format  
+utils : some utils during pipeline  
+|____args_util.py  
+|____file_util.py  
+|____read_util.py  
+|____write_util.py  
+run.py : program entry  
 
 # To run the program, commandline parameters are needed.
 
-**required arguments: **
+**required arguments: **  
 
-name	meaning	value
--d	dataset	"d4j", "manybugs","SIR"
--p	program	"Chart", "Closure", "Time", "Lang", ...
--i	bug_id	"1", "2", ...
--m	method	"dstar", "ochiai", "barinel", "MLP-FL", ...
--e	experiment	"origin", "resampling", "undersampling", ...
+name	meaning	value  
+-d	dataset	"d4j", "manybugs","SIR"  
+-p	program	"Chart", "Closure", "Time", "Lang", ...  
+-i	bug_id	"1", "2", ...  
+-m	method	"dstar", "ochiai", "barinel", "MLP-FL", ...  
+-e	experiment	"origin", "resampling", "undersampling", ...  
