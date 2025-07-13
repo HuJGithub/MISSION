@@ -23,10 +23,10 @@ data
 |____motivation :artificial dataset	  
 data_process  
 |____data_systhesis :data synthesis approaches  
-|____|____resampling.py  
-|____|____borderline_smote.py  
+|''|____resampling.py  
+|    |____borderline_smote.py  
 |____dimensional_reduction :feature selection   
-|____|____Slice.py		  
+|    |____Slice.py		  
 metrics : SFL and DLFL metrics  
 |____calc_corr.py  
 |____dl_metrics.py  
