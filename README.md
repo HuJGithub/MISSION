@@ -23,10 +23,10 @@ data
 |____motivation :artificial dataset	  
 data_process  
 |____data_systhesis :data synthesis approaches  
-|&nbsp;|____resampling.py  
-|    |____borderline_smote.py  
+|____|____resampling.py  
+|____|____borderline_smote.py  
 |____dimensional_reduction :feature selection   
-|	 |____Slice.py		  
+|____|____Slice.py		  
 metrics : SFL and DLFL metrics  
 |____calc_corr.py  
 |____dl_metrics.py  
@@ -36,11 +36,9 @@ pipeline
 read_data : load data according to args  
 |____DataLoader.py  
 |____Defects4JDataLoader.py  
-
 |____ManyBugsDataLoader.py  
 |____SIRDataLoader.py  
-results : store the results in txt format  
-utils : some utils during pipeline  
+utils 
 |____args_util.py  
 |____file_util.py  
 |____read_util.py  
