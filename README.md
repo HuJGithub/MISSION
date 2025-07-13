@@ -1,13 +1,10 @@
-# MISSION
-
-
-Introduction  
+# Introduction  
 This repository provides source code of MISSION.  
 
 MISSION is a data augmentation approach that aims at handling the between-class problem rooted in the natural of the program test suite. Specifically, MISSION
  generates synthesized failing test cases from reduced feature sapce.  
 
-Environment  
+# Environment  
 OS: Linux  
 Python package:  
 pandas==0.25.1  
@@ -15,7 +12,7 @@ chardet==3.0.4
 numpy==1.16.5  
 torch==1.9.0  
 Structure  
-The structure of the repository is as follows:  
+# The structure of the repository is as follows:  
 
 calculate_suspiciousness  
 |____CalculateSuspiciousness.py	:calculate suspiciousness of each statement and give the MFR rank or MAR rank according to the real fault line.  
@@ -26,10 +23,8 @@ data
 |____motivation :artificial dataset	  
 data_process  
 |____data_systhesis :data synthesis approaches  
-|>>|____resampling.py  
+|  |____resampling.py  
 |    |____borderline_smote.py  
-|____data_undersampling :undersampling approaches  
-|	 |____undersampling.py  
 |____dimensional_reduction :feature selection   
 |	 |____Slice.py		  
 metrics : SFL and DLFL metrics  
@@ -52,7 +47,8 @@ utils : some utils during pipeline
 |____write_util.py  
 run.py : program entry  
 
-# To run the program, commandline parameters are needed.
+# Usage
+To run the program, commandline parameters are needed.
 
 **required arguments: **  
 
