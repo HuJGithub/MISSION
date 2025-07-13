@@ -23,7 +23,7 @@ data
 |____motivation :artificial dataset	  
 data_process  
 |____data_systhesis :data synthesis approaches  
-|  |____resampling.py  
+|&nbsp;|____resampling.py  
 |    |____borderline_smote.py  
 |____dimensional_reduction :feature selection   
 |	 |____Slice.py		  
