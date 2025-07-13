@@ -17,13 +17,13 @@ torch==1.9.0
 Structure  
 The structure of the repository is as follows:  
 
-calculate_suspiciousness
-|____CalculateSuspiciousness.py	:calculate suspiciousness of each statement and give the MFR rank or MAR rank according to the real fault line.
-data
-|____d4j :Defects4J dataset	
-|____manybugs :MangBugs dataset	
-|____sir :SIR dataset		
-|____motivation :artificial dataset	
+calculate_suspiciousness  
+|____CalculateSuspiciousness.py	:calculate suspiciousness of each statement and give the MFR rank or MAR rank according to the real fault line.  
+data  
+|____d4j :Defects4J dataset	  
+|____manybugs :MangBugs dataset	  
+|____sir :SIR dataset		  
+|____motivation :artificial dataset	  
 data_process
 |____data_systhesis :data synthesis approaches
 |    |____resampling.py
