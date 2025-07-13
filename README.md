@@ -26,7 +26,7 @@ data
 |____motivation :artificial dataset	  
 data_process  
 |____data_systhesis :data synthesis approaches  
-|    |____resampling.py  
+|>>|____resampling.py  
 |    |____borderline_smote.py  
 |____data_undersampling :undersampling approaches  
 |	 |____undersampling.py  
